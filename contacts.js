@@ -19,6 +19,8 @@ window.addEventListener("load", function () {
     } else if (pageItem == "contacts") {
         contactsClick();
         refresh();
+    } else {
+        overviewClick();
     }
 });
 
