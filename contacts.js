@@ -1,5 +1,6 @@
 //auto text setup
 window.addEventListener("load", function () {
+    refresh();
     setTimeout(function () {
         let welcome = "Welcome To Our Website ";
         let txt = document.getElementById("welcome");
